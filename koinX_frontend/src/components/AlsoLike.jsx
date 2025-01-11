@@ -18,7 +18,7 @@ const CustomNextArrow = ({ onClick }) => (
   </button>
 );
 
-const Footer = () => {
+const AlsoLike = () => {
   const [trendingCoins, setTrendingCoins] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -148,6 +148,6 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default AlsoLike;
 
 

@@ -1,6 +1,6 @@
 import './App.css'
-import Body from './components/Body'
-import Footer from '/components/Footer';
+import Body from './components/Body';
+import AlsoLike from './components/AlsoLike';
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
@@ -18,7 +18,7 @@ function App() {
         </div>
         <Hero/>
         <Body/> 
-        <Footer/>
+        <AlsoLike/>
        <x/>
     </div>
   )
