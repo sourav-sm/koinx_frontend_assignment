@@ -42,7 +42,7 @@ const Heroleft=()=>{
                 </p>
                 <p className="font-bold text-2xl"> ₹{bitcoinPrice.inr.toLocaleString()}</p>
              </div>
-             <div style={{ height: "600px", width: "100%" }}>
+             <div style={{ height: "550px", width: "100%" }}>
             <TradingViewWidget />
     </div>
         </div>
