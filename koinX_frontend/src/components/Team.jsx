@@ -10,7 +10,7 @@ const Team = () => {
                 <h2 className="font-bold text-2xl md:text-3xl mb-7">Team</h2>
                 <p className="font-medium text-base md:text-lg mb-7">Lorem ipsum dolor sit amet consectetur. Id consequat adipiscing arcu nibh. Eget mattis in mi integer sit egestas. Proin tempor id pretium quam. Facilisis purus convallis quam augue.</p>
                 {[teamMember1, teamMember2, teamMember3].map((member, index) => (
-                    <div key={index} className="bg-slate-300 p-5 grid grid-cols-1 md:grid-cols-10 gap-5 bg-center mb-5 md:mb-0">
+                    <div key={index} className="bg-slate-300 p-5 grid grid-cols-1 md:grid-cols-10 gap-5 bg-center mb-5 md:mb-0 border-b-white border-b-8 rounded-lg">
                         <div className="md:col-span-2">
                             <img className="rounded-lg mb-3 mx-auto" src={member} alt="" style={{ maxWidth: '100%', height: 'auto' }} />
                             <p className="text-md font-bold text-center">Name {index + 1}</p>

@@ -1,4 +1,4 @@
-import Heroleft from './Herleft';
+import Heroleft from './Heroleft';
 import Heroright1 from './Heroright1';
 import Heroright2 from './Heroright2';
 

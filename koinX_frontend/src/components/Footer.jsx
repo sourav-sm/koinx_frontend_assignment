@@ -58,21 +58,21 @@ const Footer = () => {
     ),
     responsive: [
       {
-        breakpoint: 1024, // Tablet and small desktops
+        breakpoint: 1024,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 768, // Mobile devices
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 480, // Smaller mobile devices
+        breakpoint: 480,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -113,7 +113,6 @@ const Footer = () => {
           </div>
         ))}
       </Slider>
-        {/************ * trending coins *********/}
         <h2 className="font-semibold text-2xl mb-10 pt-5">Trending Coins</h2>
       <Slider {...settings}>
         {trendingCoins.map((coin) => (

@@ -21,7 +21,7 @@ const Body = () => {
 
   return (
     <div className="flex flex-col sm:(grid grid-cols-10)">
-      <div className="sm:(col-span-7 font-bold) flex flex-wrap -mt-16  gap-4 p-5 ml-5 mb-5 text-xl font-semibold text-slate-500">
+      <div className="sm:(col-span-7 font-bold) flex flex-wrap md:-mt-16   gap-4 p-5 ml-5 mb-5 text-xl font-semibold text-slate-500 overflow-x-auto whitespace-nowrap">
         {Object.keys(tabContent).map((tab) => (
           <div
             key={tab}
@@ -36,10 +36,8 @@ const Body = () => {
           </div>
         ))}
       </div>
-      <hr className="" />
-      
-      {/* Tab Content */}
-      <div className="text-lg text-gray-700 -mt-6">
+      <hr className="border-slate-300" />
+      <div className="text-lg text-gray-700 -mt-8">
         {tabContent[activeTab]}
       </div>
     </div>
